@@ -28,17 +28,21 @@ Due to government regulation, the system should provide me with the ability to f
  
  # Postman tests
 
-Creating a parking lot
 
-POST Request
+# POST Request
+
+Creating a parking lot
 
 http://localhost:8080/carpark/create_parking_lot 
 
 number_of_slots 5
 
+
+
+# PUT Request
+
 Parking the car
 
-PUT Request
 http://localhost:8080/carpark/park
 
 registration_number HH-HH-HH-HH
@@ -70,13 +74,18 @@ colour Black
 http://localhost:8080/carpark/park
 
 registration_number KA-01-XA-1234
+
 colour Red
+
+# DELETE Request
 
 Leaving the carpark
 
 http://localhost:8080/carpark/leave
 
 slot_number 4
+
+# GET Request
 
 Status of the car park at any given point in time
 
