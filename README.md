@@ -99,17 +99,18 @@ http://localhost:8080/carpark/registration_numbers_for_cars_with_colour
 
 colour Red
 
-Slot number in which a car with a given registration number is parked.
+Slot numbers of all the slots where a car of a particular colour is parked.
 
 http://localhost:8080/carpark/slot_numbers_for_cars_with_colour
 
 colour Red
 
-Slot numbers of all the slots where a car of a particular colour is parked.
+Slot number in which a car with a given registration number is parked.
 
 http://localhost:8080/carpark/slot_number_for_registration_number
 
 registration_number KA-01-HH-3241
+
 
 # Swagger Documentation URL
 
